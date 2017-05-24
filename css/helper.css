@@ -1,0 +1,406 @@
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 15px 0px 15px;
+  text-align: center;
+}
+
+.padding-xs {
+    content: "&nbsp;";
+    color: transparent;
+    height: 10px;
+    width: 100%;
+    clear: both
+}
+
+.padding,
+.padding-sm {
+    content: "&nbsp;";
+    color: transparent;
+    height: 20px;
+    width: 100%;
+    clear: both
+}
+
+.padding-md {
+    content: "&nbsp;";
+    color: transparent;
+    height: 40px;
+    width: 100%;
+    clear: both
+}
+
+.padding-lg {
+    content: "&nbsp;";
+    color: transparent;
+    height: 80px;
+    width: 100%;
+    clear: both
+}
+
+.pad-left {
+    margin-left: 40px
+}
+
+.pad-right {
+    margin-right: 40px
+}
+
+.pad-top {
+    margin-top: 20px
+}
+
+.pad-bottom {
+    margin-bottom: 20px
+}
+
+.half-pad-right {
+    margin-right: 20px
+}
+
+.half-pad-left {
+    margin-left: 20px
+}
+
+.half-pad-top {
+    margin-top: 10px
+}
+
+.half-pad-bottom {
+    margin-bottom: 10px
+}
+
+.quarter-pad-right {
+    margin-right: 10px
+}
+
+.quarter-pad-left {
+    margin-left: 10px
+}
+
+.quarter-pad-top {
+    margin-top: 5px
+}
+
+.quarter-pad-bottom {
+    margin-bottom: 5px
+}
+
+.no-pad-top {
+    padding-top: 0!important
+}
+
+.no-pad-bottom {
+    padding-bottom: 0!important
+}
+
+.no-pad-right {
+    padding-right: 0!important
+}
+
+.no-pad-left {
+    padding-left: 0!important
+}
+
+.center,
+.centered {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.full-width {
+    width: 100%
+}
+
+.half-width {
+    width: 50%
+}
+
+.text-left-not-lg,
+.text-left-not-md,
+.text-left-not-sm,
+.text-left-not-xs {
+    text-align: left
+}
+
+.text-center-not-lg,
+.text-center-not-md,
+.text-center-not-sm,
+.text-center-not-xs {
+    text-align: center
+}
+
+.text-right-not-lg,
+.text-right-not-md,
+.text-right-not-sm,
+.text-right-not-xs {
+    text-align: right
+}
+
+.text-justify-not-lg,
+.text-justify-not-md,
+.text-justify-not-sm,
+.text-justify-not-xs {
+    text-align: justify
+}
+
+@media (max-width:767px) {
+    .text-center-not-xs,
+    .text-justify-not-xs,
+    .text-left-not-xs,
+    .text-right-not-xs {
+        text-align: inherit
+    }
+    .text-left-xs {
+        text-align: left
+    }
+    .text-center-xs {
+        text-align: center
+    }
+    .text-right-xs {
+        text-align: right
+    }
+    .text-justify-xs {
+        text-align: justify
+    }
+    .pad-bottom-xs {
+        margin-bottom: 20px
+    }
+    .half-pad-right-xs {
+        margin-right: 20px
+    }
+    .half-pad-left-xs {
+        margin-left: 20px
+    }
+    .half-pad-top-xs {
+        margin-top: 10px
+    }
+    .half-pad-bottom-xs {
+        margin-bottom: 10px
+    }
+    .quarter-pad-right-xs {
+        margin-right: 10px
+    }
+    .quarter-pad-left-xs {
+        margin-left: 10px
+    }
+    .quarter-pad-top-xs {
+        margin-top: 5px
+    }
+    .quarter-pad-bottom-xs {
+        margin-bottom: 5px
+    }
+    .no-pad-top-xs {
+        padding-top: 0!important
+    }
+    .no-pad-bottom-xs {
+        padding-bottom: 0!important
+    }
+    .no-pad-right-xs {
+        padding-right: 0!important
+    }
+    .no-pad-left-xs {
+        padding-left: 0!important
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .text-center-not-sm,
+    .text-justify-not-sm,
+    .text-left-not-sm,
+    .text-right-not-sm {
+        text-align: inherit
+    }
+    .text-left-sm {
+        text-align: left
+    }
+    .text-center-sm {
+        text-align: center
+    }
+    .text-right-sm {
+        text-align: right
+    }
+    .text-justify-sm {
+        text-align: justify
+    }
+    .pad-bottom {
+        margin-bottom: 20px
+    }
+    .half-pad-right-sm {
+        margin-right: 20px
+    }
+    .half-pad-left-sm {
+        margin-left: 20px
+    }
+    .half-pad-top-sm {
+        margin-top: 10px
+    }
+    .half-pad-bottom-sm {
+        margin-bottom: 10px
+    }
+    .quarter-pad-right-sm {
+        margin-right: 10px
+    }
+    .quarter-pad-left-sm {
+        margin-left: 10px
+    }
+    .quarter-pad-top-sm {
+        margin-top: 5px
+    }
+    .quarter-pad-bottom-sm {
+        margin-bottom: 5px
+    }
+    .no-pad-top-sm {
+        padding-top: 0!important
+    }
+    .no-pad-bottom-sm {
+        padding-bottom: 0!important
+    }
+    .no-pad-right-sm {
+        padding-right: 0!important
+    }
+    .no-pad-left-sm {
+        padding-left: 0!important
+    }
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+    .text-center-not-md,
+    .text-justify-not-md,
+    .text-left-not-md,
+    .text-right-not-md {
+        text-align: inherit
+    }
+    .text-left-md {
+        text-align: left
+    }
+    .text-center-md {
+        text-align: center
+    }
+    .text-right-md {
+        text-align: right
+    }
+    .text-justify-md {
+        text-align: justify
+    }
+    .pad-bottom {
+        margin-bottom: 20px
+    }
+    .half-pad-right-md {
+        margin-right: 20px
+    }
+    .half-pad-left-md {
+        margin-left: 20px
+    }
+    .half-pad-top-md {
+        margin-top: 10px
+    }
+    .half-pad-bottom-md {
+        margin-bottom: 10px
+    }
+    .quarter-pad-right-md {
+        margin-right: 10px
+    }
+    .quarter-pad-left-md {
+        margin-left: 10px
+    }
+    .quarter-pad-top-md {
+        margin-top: 5px
+    }
+    .quarter-pad-bottom-md {
+        margin-bottom: 5px
+    }
+    .no-pad-top-md {
+        padding-top: 0!important
+    }
+    .no-pad-bottom-md {
+        padding-bottom: 0!important
+    }
+    .no-pad-right-md {
+        padding-right: 0!important
+    }
+    .no-pad-left-md {
+        padding-left: 0!important
+    }
+}
+
+@media (min-width:1200px) {
+    .text-center-not-lg,
+    .text-justify-not-lg,
+    .text-left-not-lg,
+    .text-right-not-lg {
+        text-align: inherit
+    }
+    .text-left-lg {
+        text-align: left
+    }
+    .text-center-lg {
+        text-align: center
+    }
+    .text-right-lg {
+        text-align: right
+    }
+    .text-justify-lg {
+        text-align: justify
+    }
+    .pad-bottom-lg {
+        margin-bottom: 20px
+    }
+    .half-pad-right-lg {
+        margin-right: 20px
+    }
+    .half-pad-left-lg {
+        margin-left: 20px
+    }
+    .half-pad-top-lg {
+        margin-top: 10px
+    }
+    .half-pad-bottom-lg {
+        margin-bottom: 10px
+    }
+    .quarter-pad-right-lg {
+        margin-right: 10px
+    }
+    .quarter-pad-left-lg {
+        margin-left: 10px
+    }
+    .quarter-pad-top-lg {
+        margin-top: 5px
+    }
+    .quarter-pad-bottom-lg {
+        margin-bottom: 5px
+    }
+    .no-pad-top-lg {
+        padding-top: 0!important
+    }
+    .no-pad-bottom-lg {
+        padding-bottom: 0!important
+    }
+    .no-pad-right-lg {
+        padding-right: 0!important
+    }
+    .no-pad-left-lg {
+        padding-left: 0!important
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .center-mobile {
+        text-align: center!important;
+        margin-right: auto!important;
+        margin-left: auto!important
+    }
+    .full-width-mobile {
+        width: 100%
+    }
+
+    .btn-xs-block,
+    .xs-block {
+        display: block!important
+    }
+    .table-responsive {
+        border-bottom: 4px solid #ccc
+    }
+}
