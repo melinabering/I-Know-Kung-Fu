@@ -4,7 +4,7 @@ html {
 
 body {
   font: 100% Helvetica, sans-serif;
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: rgba(0, 0, 0, 0.15);
   padding-top: 50px;
   margin-bottom: 60px;
   font-size: 150%; }
@@ -12,12 +12,12 @@ body {
 /* Sticky footer styles
 -------------------------------------------------- */
 .card, nav, img, .btn {
-  box-shadow: 3px 2px 3px rgba(0, 0, 0, 0.25); }
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
 
 .card {
   padding: 20px;
   margin: 20px;
-  background: rgba(0, 0, 0, 0.05); }
+  background: white; }
 
 .footer {
   position: absolute;
@@ -476,7 +476,7 @@ footer .container-fluid .text-muted {
   flex-wrap: wrap;
   justify-content: flex-start;
   align-content: flex-start;
-  align-items: flex-start;
+  align-items: stretch;
   padding: 15px 25px; }
   .thumb img {
     display: inline-block; }
@@ -500,7 +500,7 @@ footer .container-fluid .text-muted {
 .listview {
   padding: 0 30px; }
   .listview div {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
     padding: 10px;
     text-align: center;
     position: relative;

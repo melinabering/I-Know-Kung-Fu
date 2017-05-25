@@ -1,6 +1,6 @@
-$body-bg:rgba(0,0,0,0.05);
-$box-shadow: 3px 2px 3px rgba(0,0,0,0.25);
-$card-bg:$body-bg;
+$body-bg:rgba(0,0,0,0.15);
+$box-shadow:  0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+$card-bg:white;
 
 html {
   position: relative;
@@ -549,7 +549,7 @@ $thumbnail-text-color:rgba(0,0,0,0.5);
 	flex-wrap:wrap;
 	justify-content: flex-start;
     align-content: flex-start;
-    align-items: flex-start;
+    align-items: stretch;
 	padding:15px 25px;
 	
 	img{
